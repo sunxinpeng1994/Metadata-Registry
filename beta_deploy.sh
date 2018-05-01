@@ -7,12 +7,12 @@
 #curl -s 'https://forge.laravel.com/servers/102862/sites/471050/deploy/http?token=MuYNzkjNrHfdZV3Cz3jXFRs6th0Fm3DFhxLxTAUc';
 #echo 'Deployment triggered!'
 cd /home/rda.metadataregistry.org
-git pull origin beta
+sudo git pull origin beta
 
-composer install --no-interaction --prefer-dist --optimize-autoloader
-php artisan migrate --force
-php artisan view:clear
-php artisan config:cache
-yarn
-npm run production
-php symfony cc
+sudo composer install --no-interaction --prefer-dist --optimize-autoloader
+sudo php artisan migrate --force
+sudo php artisan view:clear
+sudo php artisan config:cache
+sudo yarn
+sudo npm run production
+sudo php symfony cc
