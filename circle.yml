@@ -60,4 +60,5 @@ test:
     - "php artisan serve":
         background: true
   override:
+    - ./vendor/bin/phpunit
     - php artisan dusk
