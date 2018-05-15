@@ -19,6 +19,6 @@
 
 #sudo php symfony cc
 
-
+ssh admin@54.244.201.75 
 cd /home/admin
 sudo git pull origin beta
