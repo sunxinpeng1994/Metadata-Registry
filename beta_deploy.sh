@@ -18,7 +18,7 @@
 # sudo npm run dev
 
 #sudo php symfony cc
-
+ssh admin@54.244.201.75 
 ls
 cd /var/www/html/Metadata-Registry/
 sudo git pull origin beta
