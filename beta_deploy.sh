@@ -18,7 +18,6 @@
 # sudo npm run dev
 
 #sudo php symfony cc
-
-ls
+pwd
 cd /var/www/html/Metadata-Registry/
 sudo git pull origin beta
