@@ -49,7 +49,7 @@ deployment:
     branch: beta
     commands:
      # - more ~/.ssh/id_myserver
-      - ssh -i ~/.ssh/id_admin admin@13.58.214.57 './beta_deploy.sh'
+      - ssh -i ~/.ssh/id_admin admin@54.244.201.75 './beta_deploy.sh'
 
 test:
   pre:
