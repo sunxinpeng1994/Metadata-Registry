@@ -48,7 +48,7 @@ deployment:
   production:
     branch: beta
     commands:
-      - more ~/.ssh/id_admin
+     # - more ~/.ssh/id_myserver
       - ssh -i ~/.ssh/id_myserver myserver@13.58.214.57 './beta_deploy.sh'
 
 test:
