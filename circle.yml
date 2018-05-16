@@ -48,7 +48,7 @@ deployment:
   production:
     branch: beta
     commands:
-      - ssh -i admin@54.244.201.75 './beta_deploy.sh'
+      - ./beta_deploy.sh
 
 test:
   pre:
